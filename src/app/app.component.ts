@@ -11,4 +11,5 @@ import { TodoComponent } from "./todo/todo.component";
 })
 export class AppComponent {
   title = 'todo-app';
+  rows: number[] = new Array(7);  // Crea un array con 7 elementos
 }

@@ -4,7 +4,10 @@ module.exports = {
     "./src/**/*.{html,ts}", // Procesa HTML y archivos TypeScript
   ],
   theme: {
-    extend: {},
+    extend: {     
+       boxShadow: {
+      persona: '4px 4px 0px 0px rgba(255, 255, 255, 0.75), -4px -4px 0px 0px rgba(0, 0, 0, 0.75)',
+    },},
   },
   plugins: [],
 }
